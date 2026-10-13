@@ -171,28 +171,12 @@ Relative bi-iliac breadth is primarily summarised descriptively, with an explora
 
 Sexual dimorphism is expressed as the percentage difference between male and female group means relative to their arithmetic midpoint:
 
-\[
-SD_{\%} = 100 \times
-\frac{\bar{X}_{M}-\bar{X}_{F}}
-{(\bar{X}_{M}+\bar{X}_{F})/2}
-\]
+
+SDpercentage =[(X̄ₘₐₗₑ - X̄fₑₘₐₗₑ) / ((X̄ₘₐₗₑ + X̄fₑₘₐₗₑ) / 2)] × 100
 
 The metric is calculated separately for stature, body mass and BMI.
 
 Results should be interpreted within each trait rather than as directly equivalent absolute differences across different anatomical or body-size variables.
-
-### Analytical considerations
-
-Several methodological decisions require particular attention when interpreting results:
-
-- Small and uneven archaeological sample sizes.
-- The distinction between archaeological context identifiers and biological individuals.
-- The treatment of commingled skeletal material.
-- Sex estimation and the independence of observations.
-- Differences in data availability for recorded and recalculated variables.
-- Multiple-testing adjustments and the interpretation of post hoc comparisons.
-
-The code preserves the analytical rules of the original script while making these decisions more explicit. Their consistency with the final manuscript must be verified before release.
 
 ---
 
