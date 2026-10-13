@@ -34,14 +34,9 @@ Ancient_Highland_Tibetan_Body_Form_Analysis/
 │
 ├── README.md
 ├── ATP_Body_Form_Analysis.Rmd
-│
-├── data/
-│   └── README.md
-│
-└── outputs/
-    ├── figures/
-    ├── tables/
-    └── audits/
+├── data
+└── outputs
+ 
 ```
 
 The `outputs/` subdirectories are generated when the analysis runs and are not required to be tracked in the repository.
