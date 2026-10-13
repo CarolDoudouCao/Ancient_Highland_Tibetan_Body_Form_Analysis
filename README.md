@@ -293,9 +293,7 @@ Final bibliographic information, a version-specific repository citation and any 
 
 Hong Kong Institute for the Humanities and Social Sciences  
 The University of Hong Kong
-
 Email:dcao@hku.hk
-
 Research profile: https://ihss.hku.hk/portfolio/doudou-cao/
 and https://caroldoudoucao.github.io/
 
