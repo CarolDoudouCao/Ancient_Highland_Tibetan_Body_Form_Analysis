@@ -61,7 +61,7 @@ Four CSV files are expected in the `data/` directory:
 
 | Filename | Description |
 |---|---|
-| `Feb_body_proportion_dataset_1^02^03.csv` | Main analytical dataset containing body size, body proportions and associated information |
+| `BodyForm_REVISED` | Main analytical dataset containing body size, body proportions and associated information |
 | `ASTA_and_Measurements_High_and_Low.csv` | Anatomical measurements used to calculate trunk-to-lower-limb ratios |
 | `STAvsRLLL.csv` | Comparative dataset containing published reference measurements and indices |
 | `Right_side_only_for_summarise_dataset3.csv` | Bone-level measurements used for descriptive analysis of the Sding Chung assemblage |
