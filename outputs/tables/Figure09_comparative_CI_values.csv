@@ -1,0 +1,33 @@
+Group,Sex,Sta,RLLL,CI,GroupLabel,Region,SexPanel
+ZJZXPre_Ming,M,165.07,49.22,82.32,"Zhijiaozhongxin
+pre-Ming",Lowland,Males
+ZJZXPre_Ming,F,153.89,48.04,84.24,"Zhijiaozhongxin
+pre-Ming",Lowland,Females
+ZJZXPost_Ming,M,163.36,47.49,84,"Zhijiaozhongxin
+post-Ming",Lowland,Males
+ZJZXPost_Ming,F,150.42,47.52,84.35,"Zhijiaozhongxin
+post-Ming",Lowland,Females
+GS,M,165.16,48.03,83.76,Gaoshan,Lowland,Males
+GS,F,155.8,48.5,82.7,Gaoshan,Lowland,Females
+PYDG,M,159.41,49.33,81.69,Phiyang-Dungkar,SCTP,Males
+PYDG,F,149.01,47.03,81.59,Phiyang-Dungkar,SCTP,Females
+PKGM,M,165.7,49.32,82.57,Pukar-Gongma,NTP,Males
+PKGM,F,159.13,48.82,82.84,Pukar-Gongma,NTP,Females
+BTXQ,M,151.05,47.45,81.7,Putar Shongchu,SCTP,Males
+GL,M,156.74,47.21,80.03,Gulie,SCTP,Males
+Highland Andean,M,158.3,48.38,83.1,"Kuélap
+(Andean highland)",Reference,Males
+Highland Andean,F,147.9,48.26,81.1,"Kuélap
+(Andean highland)",Reference,Females
+NEU,M,167.15,49,83.66,Northern Europe,Reference,Males
+NEU,F,157.02,47.94,83.82,Northern Europe,Reference,Females
+SEU,M,162.88,49.11,83.29,Southern Europe,Reference,Males
+SEU,F,153.88,48.42,83.09,Southern Europe,Reference,Females
+Arctic NA,M,158.05,48.77,81.8,North American Arctic,Reference,Males
+Arctic NA,F,148.72,48.08,81.41,North American Arctic,Reference,Females
+Tem NA,M,163.61,49.31,85.06,Temperate North America,Reference,Males
+Tem NA,F,153.78,48.82,84.24,Temperate North America,Reference,Females
+GP NA,M,167.87,49.65,85.67,Great Plains North America,Reference,Males
+GP NA,F,155.95,48.79,85.51,Great Plains North America,Reference,Females
+SDC,M,160.1,NA,80.96,Sding Chung,SCTP,Males
+SDC,F,151,NA,79.39,Sding Chung,SCTP,Females

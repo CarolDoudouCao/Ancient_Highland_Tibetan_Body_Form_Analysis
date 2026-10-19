@@ -1,0 +1,5 @@
+file_key,relative_path,md5
+main,data/BodyForm_REVISED.csv,3b4fdcfeceb4d27c722a643cd08f6559
+anatomical,data/ASTA_and_Measurements_High_and_Low.csv,aa403a1c0377acd3789640eac6c50491
+reference,data/STAvsRLLL.csv,eab7809b2410b75256c3bcd058496717
+sdc,data/Right_side_only_for_summarise_dataset3.csv,e5d4c44721e5667216449915fb5a4cdc
