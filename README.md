@@ -53,22 +53,24 @@ The `outputs/` subdirectories are generated when the analysis runs and are not r
 
 The analyses draw on osteometric datasets representing archaeological populations from the Tibetan Plateau and lowland China, together with published comparative data.
 
-The workflow distinguishes between individual-level measurements, anatomical measurements used to derive trunk-to-lower-limb proportions, published reference observations, and bone-level measurements from commingled archaeological material.
+The workflow distinguishes between individual-level measurements, anatomical measurements used to derive trunk-to-lower-limb proportions, comparative observations, bone-level measurements from commingled archaeological material, and group-level crural index summaries used in the updated Figure 9.
 
-### Required input files
+### Input files
 
-Four CSV files are expected in the `data/` directory:
+Four core CSV files and one additional CSV for the updated Figure 9 are expected in the `data/` directory:
 
-| Filename | Description |
+| **Filename** | **Description** |
 |---|---|
-| `BodyForm_REVISED` | Main analytical dataset containing body size, body proportions and associated information |
+| `BodyForm_REVISED.csv` | Main analytical dataset containing body size, body proportions and associated information |
 | `ASTA_and_Measurements_High_and_Low.csv` | Anatomical measurements used to calculate trunk-to-lower-limb ratios |
-| `STAvsRLLL.csv` | Comparative dataset containing published reference measurements and indices |
+| `STAvsRLLL.csv` | Study-group and published comparative observations used for the original Figure 9 |
 | `Right_side_only_for_summarise_dataset3.csv` | Bone-level measurements used for descriptive analysis of the Sding Chung assemblage |
+| `ci_reference.csv` | Revised group-level comparison table containing crural index estimates, within-group standard deviations where available, sample sizes and plotting categories for the updated Figure 9 |
+
+`ci_reference.csv` supplements rather than replaces `STAvsRLLL.csv`. The original and updated Figure 9 sections use these separate datasets and save their outputs under different filenames. The additional file is required only to generate the updated Figure 9; if it is absent, that section is skipped with a warning while the original workflow can continue.
 
 Input filenames must match those specified in the R Markdown file.
 
-The code currently expects comma-separated CSV files. Their encoding, delimiters and variable formats should be verified against the archived source files before execution.
 
 ---
 
