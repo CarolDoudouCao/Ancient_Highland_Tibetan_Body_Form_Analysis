@@ -57,17 +57,17 @@ The workflow distinguishes between individual-level measurements, anatomical mea
 
 ### Input files
 
-Four core CSV files and one additional CSV for the updated Figure 9 are expected in the `data/` directory:
+Five core CSV files are stored in the `data/` directory:
 
 | **Filename** | **Description** |
 |---|---|
 | `BodyForm_REVISED.csv` | Main analytical dataset containing body size, body proportions and associated information |
 | `ASTA_and_Measurements_High_and_Low.csv` | Anatomical measurements used to calculate trunk-to-lower-limb ratios |
-| `STAvsRLLL.csv` | Study-group and published comparative observations used for the original Figure 9 |
+| `STAvsRLLL.csv` | 	Comparative dataset containing published reference measurements and indices |
 | `Right_side_only_for_summarise_dataset3.csv` | Bone-level measurements used for descriptive analysis of the Sding Chung assemblage |
 | `ci_reference.csv` | Revised group-level comparison table containing crural index estimates, within-group standard deviations where available, sample sizes and plotting categories for the updated Figure 9 |
 
-`ci_reference.csv` supplements rather than replaces `STAvsRLLL.csv`. The original and updated Figure 9 sections use these separate datasets and save their outputs under different filenames. The additional file is required only to generate the updated Figure 9; if it is absent, that section is skipped with a warning while the original workflow can continue.
+ci_reference.csv supplements rather than replaces STAvsRLLL.csv. The original and updated Figure 9 sections use these separate datasets and save their outputs under different filenames. The additional file is required only for the updated Figure 9, which presents CI estimates alongside within-group standard deviations where available.
 
 
 ---
