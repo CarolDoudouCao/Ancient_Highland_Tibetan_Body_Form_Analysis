@@ -69,8 +69,6 @@ Four core CSV files and one additional CSV for the updated Figure 9 are expected
 
 `ci_reference.csv` supplements rather than replaces `STAvsRLLL.csv`. The original and updated Figure 9 sections use these separate datasets and save their outputs under different filenames. The additional file is required only to generate the updated Figure 9; if it is absent, that section is skipped with a warning while the original workflow can continue.
 
-Input filenames must match those specified in the R Markdown file.
-
 
 ---
 
