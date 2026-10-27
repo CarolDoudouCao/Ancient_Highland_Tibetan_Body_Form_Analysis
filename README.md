@@ -57,7 +57,7 @@ The workflow distinguishes between individual-level measurements, anatomical mea
 
 ### Input files
 
-Five core CSV files are stored in the `data/` directory:
+The workflow uses four core CSV files and one additional comparison file for the updated Figure 9, all located in the `data/` directory.
 
 | **Filename** | **Description** |
 |---|---|
@@ -133,6 +133,7 @@ The workflow generates revised Figures 3–11 of the manuscript.
 | Figure 7 | Brachial index | Individual-level measurements |
 | Figure 8 | Crural index | Individual-level measurements |
 | Figure 9 | Crural indices across study and comparative populations | Published reference dataset |
+| Figure 9 updated version | Crural indices with within-group standard deviations where available | Published reference dataset |
 | Figure 10 | Relative bi-iliac breadth | Individual-level measurements |
 | Figure 11 | Within-trait sexual dimorphism | Main dataset |
 
@@ -289,7 +290,7 @@ Final bibliographic information, a version-specific repository citation and any 
 Hong Kong Institute for the Humanities and Social Sciences  
 The University of Hong Kong
 
-Email:dcao@hku.hk
+Email: dcao@hku.hk
 
 Research profile: https://ihss.hku.hk/portfolio/doudou-cao/
 and https://caroldoudoucao.github.io/
